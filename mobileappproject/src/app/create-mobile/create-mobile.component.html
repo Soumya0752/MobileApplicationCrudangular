@@ -1,0 +1,14 @@
+<h1>Create Mobile</h1>
+<div class="container">
+<form (ngSubmit)="onSubmit()">
+    <label>Name</label>
+    <input class="form-control" type="text" id="name" name="name" [(ngModel)]="mobile.name">
+    <br/>
+
+    <label>Image</label>
+    <input class="form-control" type="text" id="image" name="image" [(ngModel)]="mobile.image">
+    <br/>
+    
+    <button type="submit" class="btn btn-info">Submit</button>
+</form>
+</div>
